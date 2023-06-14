@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+          "@pages/*": [
+              "./cypress/pages/*"
+          ]
+      },
+  },
+  "include": ["**/*.ts"]
+}
